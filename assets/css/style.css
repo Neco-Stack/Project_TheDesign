@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "roboto-bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "roboto-medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "roboto-light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    max-width: 100%;
+}
+.logo{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    left: 25px;
+}
+.header-start{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+}
+.header-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    gap: 1rem;
+    top: 5rem;
+}
+.background-img{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.blue-man{
+    position: absolute;
+    width: 40%;
+    right: 0.5rem;
+    top: -1rem;
+}
+.header-start p{
+    font-size: 1rem;
+    font-family: "roboto-light";
+}
+.title{
+    font-size: 2.8rem;
+}
+.starter{
+    font-family: "roboto-bold";
+    font-size: 1.5rem;
+}
+.rocket{
+    width: 1.5rem;
+    position: absolute;
+    top: 25.3rem;
+    left: 24rem;
+}
+.scroll-main{
+    font-size: 0.8rem;
+    font-family: "roboto-medium";
+    text-decoration: none;
+    color: red;
+}
+/* start of the main section/ above is the header */
+.portfolio{
+    max-width: 100%;
+}
+.sect01{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1.5;
+    max-width: 600px;
+}
+.idea{
+    font-size: 2.5rem;
+    font-family: "roboto-medium";
+}
+.sect-text{
+    font-family: "roboto-light";
+    font-size: 0.9rem;
+    line-height: 2em;
+    padding-right: 7rem;
+    width:53rem;
+}
+.sect01-intro{
+    display: flex;
+    position: relative;
+}
+.lamp{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15rem;
+}
+.position{
+    padding-left: 25rem;
+    padding-right: 30rem;
+}
