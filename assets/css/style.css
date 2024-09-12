@@ -102,7 +102,7 @@ html{
     font-size: 1.2rem;
     line-height: 2.5rem;
     margin-left: -18rem;
-    padding-right: 4rem;
+    padding-right: 4rem
 }
 .idea{
     font-size: 2.4rem;
@@ -119,4 +119,16 @@ html{
     font-size: 2.4rem;
     padding-left: 8rem;
     padding-top: 4.5rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.vector-size{
+    width: 40px;
+    height: 40px;
 }
