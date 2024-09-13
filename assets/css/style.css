@@ -129,12 +129,15 @@ html{
     padding-top: 8rem;
     padding-left: 8rem;
     padding-right: 8rem;
+    font-family: "roboto-thin";
+    
 }
 
 .box-img{
     width: 40px;
     height: 40px;
+    margin-right:10px;
 }
 .grid-box{
-    
+
 }
